@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2014 Leo Iannacone <info@leoiannacone.com>
+
+ This file was generated from a textmate theme named Monokai Extended
+ with tm2gtksw2 tool. (Alexandre da Silva)
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+-->
+
+
+<style-scheme id="molokai" _name="Molokai" version="1.0">
+
+  <author>Paolo Borelli</author>
+  <_description>Dark color scheme using the Tango color palette</_description>
+
+  <!-- Global Settings -->
+  <style name="secondary-cursor" foreground="#FFFFFF"/>
+  <style background="#rgba(120,120,120,0.4)" name="current-line"/>
+  <style background="#3b3a32" foreground="#bcbca7" name="line-numbers"/>
+  <style name="current-line-number" background="#FFFF9F"/>
+  <style name="selection" background="#rgba(120,120,120,0.4)"/>
+  <style foreground="#AE81FF" name="def:boolean"/>
+  <style foreground="#AE81FF" name="def:number"/>
+  <style foreground="#E6DB74" name="def:string"/>
+  <style bold="true" foreground="#AE81FF" name="def:constant"/>
+  <style background="#F8F8F0" foreground="#FFFFFF" name="cursor"/>
+  <style background="#13354A" name="diff:added-line"/>
+  <style background="#4C4745" foreground="#89807D" name="diff:changed-line"/>
+  <style background="#1E0010" foreground="#960050" name="diff:removed-line"/>
+  <style background="#1E0010" foreground="#960050" name="def:error"/>
+  <style foreground="#A6E22E" name="def:function"/>
+  <style foreground="#FD971F" name="def:identifier"/>
+  <style bold="true" foreground="#F92672" name="def:keyword"/>
+  <style background="#FD971F" bold="true" foreground="#000000" name="bracket-match"/>
+  <style foreground="#A6E22E" name="def:preprocessor"/>
+  <style background="#455354" foreground="#FFFFFF" name="search-match"/>
+  <style background="#bg" foreground="#66D9EF" italic="true" name="def:specials"/>
+  <style bold="true" foreground="#F92672" name="def:statement"/>
+  <style foreground="#66D9EF" name="def:type"/>
+  <!--<style background="#272822" foreground="#F8F8F2" name="text"/>
+  <style foreground="#75715E" name="def:comment"/>
+  <style background="#3E3D32" name="current-line"/>-->
+  <style background="#272822" foreground="#F8F8F2" name="text"/>
+  <style foreground="#999DA0" name="def:comment"/>
+
+</style-scheme>

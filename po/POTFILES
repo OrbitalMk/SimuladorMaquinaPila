@@ -1,0 +1,7 @@
+data/org.gnome.simulador.desktop.in
+data/org.gnome.simulador.appdata.xml.in
+data/org.gnome.simulador.gschema.xml
+src/simulador-window.ui
+src/main.c
+src/simulador-window.c
+

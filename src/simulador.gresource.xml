@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/simulador">
+    <file>simulador-window.ui</file>
+    <file>resource/style.css</file>
+    <file>resource/CPU1.png</file>
+    <file>resource/codigo.png</file>
+    <file>resource/cpu.png</file>
+    <file>resource/instrucciones.png</file>
+    <file>resource/menu.png</file>
+    <file>resource/cas.lang</file>
+    <file>simulador-about.ui</file>
+    <file>resource/logouni.png</file>
+    <file>resource/led-off.png</file>
+    <file>resource/led-on.png</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,158 @@
+@define-color bg_color_dark #404040;
+@define-color bg_color_light #424242;
+@define-color cyan rgba(39, 200, 255, 0.5);
+@define-color purple rgba(143, 64, 248, 0.5);
+@define-color a #d6d7d8;
+
+
+/* General */
+*{
+     outline: none;
+     font-size: 1em;
+}
+
+.font-big{
+     font-size: 1.5em;
+}
+
+.font-small{
+     font-size: 0.9em;
+}
+
+.padding-scroll-code {
+     border: none;
+     font-family: Monospace;
+     font-size: 15px;
+}
+
+dialog{
+     background: white;
+}
+
+.green{
+     border: none;
+     background: #dcedc8;
+     border-radius: 0;
+}
+
+.blue{
+     border: none;
+     background: #bbdefb;
+     border-radius: 0;
+}
+
+.stck{
+     border-top-left-radius: 20px;
+     margin: 10px;
+     background: white;
+}
+
+.menubar{
+     background: @bg_color_dark;
+     color: #d6d7d8;
+     border: none;
+}
+
+.menubar > menuitem{
+     background: @bg_color_dark;
+}
+
+.topbar, .bgwhite{
+     background: white;
+}
+
+.dialog-action-area{
+     padding-bottom: 5px;
+     padding-right: 5px;
+}
+
+.boxmenu, .btnlogin{
+     background: linear-gradient(45deg,@bg_color_light,@bg_color_light);
+}
+
+.boxmenu, .btnmenu, .radiobtn, .btnperfil, .entrylogin, .btnlogin, .btncerrar,
+.bordergrey, .uwuntu, .pop-ajuste button, .btnsoli{
+     border: none;
+}
+
+/* Menu principal */
+.radiobtn{
+     background: transparent;
+     box-shadow: none;
+     padding: 0 10px 0 10px;
+     margin: 4px 10px 4px 10px;
+     color: #d6d7d8;
+}
+
+.radiobtn:hover{
+     background: #73787f;
+     color: white;
+}
+
+.radiobtn:checked{
+     color: white;
+     background: #fc963a;
+}
+
+.radiobtn label{
+     margin-left: 7px;
+}
+
+.btn-blue{
+     background: #bbdefb;
+}
+
+.btn-red{
+     background: #ffcdd2;
+}
+
+.btn-green{
+     background: #dcedc8;
+}
+
+.grid{
+     padding: 30px;
+}
+
+.boxmenu{
+     padding-top: 10px;
+}
+
+.uwuntu{
+     background: linear-gradient(45deg,#f44336,#ff7043);
+     padding: 15px;
+     margin: 10px;
+     border-radius: 20px;
+}
+
+.btn-next{
+     border: none;
+     border-radius: 2px;
+     background: rgb(6, 133, 210);
+     padding: 8px;
+     color: white;
+}
+
+.btn-prev{
+     color: rgb(6, 133, 210);
+}
+
+.btnsoli{
+     border-radius: 0;
+     padding-top: 6px;
+     padding-bottom: 6px;
+}
+
+.btnmenu{
+     border-radius: 7px;
+     background: transparent;
+     box-shadow: none;
+     text-shadow: none;
+}
+
+.btncerrar{
+     background: linear-gradient(45deg,#f44336,#ff7043);
+     padding-left: 15px;
+     padding-right: 15px;
+}
+

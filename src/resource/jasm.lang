@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language id="jasm" name="Jasm" version="2.0" _section="Source">
+  <metadata>
+    <property name="mimetypes">text/x-c;text/x-csrc</property>
+    <property name="globs">*.c</property>
+  </metadata>
+  <styles>
+    <style id="comment" name="Comment" map-to="def:comment"/>
+    <style id="string" name="String" map-to="def:string"/>
+    <style id="escaped-character" name="Escaped Character" map-to="def:special-char"/>
+    <style id="preprocessor" name="Preprocessor" map-to="def:preprocessor"/>
+    <style id="included-file" name="Included File" map-to="def:string"/>
+    <style id="char" name="Character" map-to="def:character"/>
+    <style id="keyword" name="Keyword" map-to="def:keyword"/>
+    <style id="type" name="Data Type" map-to="def:type"/>
+  </styles>
+  <definitions>
+    <context id="jasm">
+      <include>
+
+        <context id="comment" style-ref="comment">
+          <start>@</start>
+          <end>$</end>
+        </context>
+
+        <!--<context id="string" end-at-line-end="true" style-ref="string">
+          <start>"</start>
+          <end>"</end>
+          <include>
+            <context id="escape" style-ref="escaped-character">
+              <match>\\.</match>
+            </context>
+          </include>
+        </context>
+
+        <context id="comment-multiline" style-ref="comment">
+          <start>\/\*</start>
+          <end>\*\/</end>
+          <include>
+            <context ref="def:in-comment"/>
+          </include>
+        </context>
+
+        <context id="char" end-at-line-end="true" style-ref="string">
+          <start>'</start>
+          <end>'</end>
+          <include>
+            <context ref="escape"/>
+          </include>
+        </context>-->
+
+        <context ref="def:decimal"/>
+
+        <context id="keywords" style-ref="keyword">
+          <keyword>segment</keyword>
+          <keyword>end</keyword>
+        </context>
+
+        <context id="types" style-ref="type">
+          <keyword>db</keyword>
+          <keyword>dw</keyword>
+          <keyword>dq</keyword>
+        </context>
+
+        <!--<context id="if0-comment" style-ref="comment">
+          <start>^#if 0\b</start>
+          <end>^#(endif|else|elif)\b</end>
+          <include>
+            <context id="if-in-if0">
+              <start>^#if(n?def)?\b</start>
+              <end>^#endif\b</end>
+              <include>
+                <context ref="if-in-if0"/>
+              </include>
+            </context>
+          </include>
+        </context>
+
+        <context id="preprocessor" style-ref="preprocessor">
+          <prefix>^#</prefix>
+          <keyword>define</keyword>
+          <keyword>undef</keyword>
+          <keyword>if(n?def)?</keyword>
+          <keyword>else</keyword>
+          <keyword>elif</keyword>
+          <keyword>endif</keyword>
+        </context>
+
+        <context id="include" style-ref="preprocessor">
+          <match>^#include (".*"|&amp;lt;.*&amp;gt;)</match>
+          <include>
+            <context id="included-file"
+                     sub-pattern="1"
+                     style-ref="included-file"/>
+          </include>
+        </context>-->
+
+      </include>
+    </context>
+  </definitions>
+</language>
+
